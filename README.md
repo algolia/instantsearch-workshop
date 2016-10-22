@@ -30,6 +30,8 @@ var search = instantsearch({
 });
 ```
 
+The Algolia app and index contains data that was uploaded in advance of the workshop. To upload your own data to Algolia, first get a [free account](https://www.algolia.com/users/sign_up), then check out the [import documentation](https://www.algolia.com/doc/guides/indexing/import-synchronize-data) to upload data and configure the index. Then, if you'd like to continue the workshop with your own data, just replace `appId`, `apiKey` and `indexName` with your own values.
+
 Next, add this code after the last line. This registers the `input` text box as the search box for our application.
 
 ``` javascript
