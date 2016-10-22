@@ -91,8 +91,8 @@ search.addWidget(
     container: '#hits',
     hitsPerPage: 10,
     templates: {
-      // empty: noResultsTemplate,
-      // item: hitTemplate
+      empty: noResultsTemplate,
+      item: hitTemplate
     },
     transformData: function(hit) {
       hit.stars = [];
