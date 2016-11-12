@@ -83,7 +83,7 @@ var noResultsTemplate =
 
 ```
 
-Next, replace the last hits widget with this:
+Next, replace the last `instantsearch.widgets.hits` declaration with this snippet. **Make sure you do not end up with duplicate declarations.**
 
 ``` javascript
 search.addWidget(
