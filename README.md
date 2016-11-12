@@ -171,6 +171,8 @@ search.addWidget(
 
 Save the `search.js` file and reload `index.html`. Search for a few of your favorite movies. Refine results as you please.
 
+Note: this example uses an Algolia index that has already been created and populated. You can also use it with an index of your own, just remember to change the `appId` and `apiKey` above and the templates for displaying information. You will also need to configure faceting for each element field you have added a faceting widget for. You can do this on the `Display/Faceting` tab of the index inside of your Algolia dashboard.
+
 ## Host on Github Pages
 
 Just head to the settings for your fork and flip the Github pages source to `master` branch.
