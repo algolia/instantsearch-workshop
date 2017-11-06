@@ -9,7 +9,7 @@ it will look like this, giving the user the abilty to search by title and facet 
 
 ## Setup
 
-Fork this repository. You can also clone it, but if you fork it than you'll have the hassle-free option to deploy to Github pages.
+Fork this repository. You can also clone it, but if you fork it then you'll have the hassle-free option to deploy to Github pages.
 
 Clone your fork and open the `index.html` page in your editor.
 
